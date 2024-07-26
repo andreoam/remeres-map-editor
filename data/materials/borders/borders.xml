@@ -2778,6 +2778,55 @@
 		<borderitem edge="dne" item="25438"/>
 		<borderitem edge="dsw" item="25437"/>
 		<borderitem edge="dse" item="25436"/>
+	</border>
+
+	<border id="249"> -- sea2 to sea Inner --
+		<borderitem edge="s"   item="35673"/>
+		<borderitem edge="e"   item="35674"/>
+		<borderitem edge="n"   item="35675"/>		
+		<borderitem edge="w"   item="35676"/>
+		<borderitem edge="dnw" item="35677"/>
+		<borderitem edge="dne" item="35678"/>
+		<borderitem edge="dsw" item="35679"/>
+		<borderitem edge="dse" item="35680"/>
+		<borderitem edge="cnw" item="35681"/>
+		<borderitem edge="cne" item="35682"/>
+		<borderitem edge="csw" item="35683"/>
+		<borderitem edge="cse" item="35684"/>
 	</border>	
+
+	<border id="250"> -- sea2 to sand outer --
+		<borderitem edge="n"   item="35390"/>
+		<borderitem edge="w"   item="35391"/>
+		<borderitem edge="s"   item="35392"/>        
+		<borderitem edge="e"   item="35393"/>
+		<borderitem edge="dse" item="35394"/>
+		<borderitem edge="dsw" item="35395"/>
+		<borderitem edge="dne" item="35396"/>
+		<borderitem edge="dnw" item="35397"/>
+		<borderitem edge="cse" item="35398"/>
+		<borderitem edge="csw" item="35399"/>
+		<borderitem edge="cne" item="35400"/>
+		<borderitem edge="cnw" item="35401"/>
+	</border>
+
+	<border id="251"> -- sea2 to eath --
+		<borderitem edge="n"   item="35402"/>
+		<borderitem edge="e"   item="35403"/>
+		<borderitem edge="s"   item="35404"/>		
+		<borderitem edge="w"   item="35405"/>
+		<borderitem edge="dnw" item="35406"/>
+		<borderitem edge="dne" item="35407"/>
+		<borderitem edge="dsw" item="35408"/>
+		<borderitem edge="dse" item="35409"/>
+		<borderitem edge="cnw" item="35410"/>
+		<borderitem edge="cne" item="35411"/>
+		<borderitem edge="csw" item="35412"/>
+		<borderitem edge="cse" item="35413"/>
+	</border>
+
+
+
+	
 	
 </materials>

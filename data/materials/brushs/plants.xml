@@ -25,6 +25,33 @@
 		<item id="3741" chance="10"/>
 	</brush>
 
+	<brush name="Plantas1" type="doodad" lookid="43031" draggable="true" on_blocking="true" thickness="10/10">
+		<item id="43030" chance="6"/>
+		<item id="43031" chance="10"/>
+		<item id="43032" chance="10"/>
+		<item id="43033" chance="3"/>
+		<item id="43034" chance="2"/>
+		<item id="43035" chance="4"/>
+		<item id="43036" chance="6"/>
+		<item id="43037" chance="8"/>
+		<item id="43038" chance="2"/>
+		<item id="43039" chance="5"/>
+		<item id="43040" chance="7"/>
+		<item id="43041" chance="4"/>
+		<item id="43042" chance="9"/>
+		<item id="43043" chance="10"/>
+		<item id="43044" chance="1"/>
+		<item id="43045" chance="3"/>
+		<item id="43046" chance="6"/>
+		<item id="43047" chance="5"/>
+		<item id="43048" chance="8"/>
+		<item id="43049" chance="7"/>
+		<item id="43050" chance="3"/>
+		<item id="43051" chance="10"/>
+		<item id="43052" chance="2"/>
+		<item id="43053" chance="9"/>
+	</brush>
+
 	<brush name="moonshine bells" type="doodad" server_lookid="18446" draggable="true" on_blocking="true" thickness="10/10">
 		<item id="18446" chance="10"/>
 		<item id="18447" chance="10"/>

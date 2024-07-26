@@ -1,5 +1,10 @@
 <materials>
 	<brush name="ice" type="ground"/>
+	<brush name="sea" type="ground"/>
+	<brush name="sea2" type="ground"/>
+	<brush name="sand" type="ground"/>
+	<brush name="dirt" type="ground"/>
+	<brush name="cave" type="ground"/>
 	<brush name="icy earth" type="ground"/>
 	<brush name="icy mountain" type="ground"/>
 	<brush name="snowy mountain" type="ground"/>
@@ -143,6 +148,25 @@
 		<border align="outer" id="5"/>
 		<border align="outer" to="none" id="5"/>
 		<border align="inner" to="ice" id="48"/>
+	</brush>
+
+	<brush name="sea2" type="ground" lookid="35348" z-order="10000">
+		<item id="35348" chance="10"/>
+		<item id="35349" chance="10"/>
+		<item id="35350" chance="10"/>
+		<item id="35351" chance="1"/>
+		<item id="35352" chance="1"/>
+		<item id="35353" chance="1"/>
+		<item id="35354" chance="1"/>
+		<item id="35355" chance="1"/>
+		<item id="35356" chance="1"/>
+		<item id="35357" chance="1"/>	
+
+		<border align="inner" to="sea" id="249"/>
+		<border align="outer" to="cave" id="251"/>
+		<border align="outer" to="none" id="251"/>
+		
+		
 	</brush>
 
 	<brush name="walkable sea outfit" type="ground" lookid="629" z-order="7600">
@@ -833,6 +857,7 @@
 			</specific>
 		</border>
 		<border align="inner" to="none" id="1"/>
+		<border align="inner" to="sea2" id="250"/>
 		
 		<optional id="129"/>
 	</brush>
@@ -1454,6 +1479,7 @@
 		
 		<border align="outer" id="13"/>
 		<border align="inner" to="none" id="1"/>
+		
 	</brush>
 
 	<brush name="light swampdirt" type="ground" lookid="194" z-order="500">

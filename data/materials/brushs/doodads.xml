@@ -15700,6 +15700,37 @@
 		<wall type="southwest diagonal"> <item id="224" chance="1"/> </wall>
 	</brush>
 
+	<brush name="destroços" type="doodad" lookid="11516" draggable="true" on_blocking="true" thickness="10/10">
+		<item id="11516" chance="1"/>
+		<item id="11517" chance="1"/>
+		<item id="11518" chance="1"/>
+		<item id="11519" chance="1"/>
+		<item id="11520" chance="1"/>
+		<item id="11521" chance="1"/>
+		<item id="11522" chance="1"/>
+		<item id="11523" chance="1"/>
+		<item id="11524" chance="1"/>
+		<item id="11525" chance="1"/>
+		<item id="11526" chance="1"/>
+		<item id="11527" chance="1"/>
+		<item id="11528" chance="1"/>
+		<item id="11529" chance="1"/>
+		<item id="11530" chance="1"/>
+		<item id="11531" chance="1"/>
+		<item id="11532" chance="1"/>
+		<item id="11533" chance="1"/>
+		<item id="11534" chance="1"/>
+		<item id="11535" chance="1"/>
+		<item id="11536" chance="1"/>
+		<item id="11537" chance="1"/>
+		<item id="11538" chance="1"/>
+		<item id="14240" chance="1"/>
+		<item id="21159" chance="1"/>
+		<item id="28912" chance="1"/>
+		<item id="11542" chance="1"/>
+
+	</brush>
+
 	<brush name="wood pile" type="doodad" server_lookid="7917" draggable="true" on_blocking="true" thickness="10/10">
 		<item id="7916" chance="10"/>
 		<item id="7917" chance="10"/>
