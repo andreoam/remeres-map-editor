@@ -318,7 +318,6 @@ bool GUI::LoadDataFiles(wxString &error, wxArrayString &warnings) {
 		spdlog::warn("[GUI::LoadDataFiles] {}: {}", itemsPath.GetFullPath().ToStdString(), error.ToStdString());
 	}
 
-
 	g_gui.SetLoadDone(45, "Loading monsters.xml ...");
 	spdlog::info("Loading monsters");
 	FileName monstersPath(exec_directory);
@@ -353,7 +352,6 @@ bool GUI::LoadDataFiles(wxString &error, wxArrayString &warnings) {
 		warnings.push_back("Couldn't load npcs.xml: " + error);
 		spdlog::warn("[GUI::LoadDataFiles] {}: {}", npcsPath.GetFullPath().ToStdString(), error.ToStdString());
 	}
-
 
 	g_gui.SetLoadDone(45, "Loading user npcs.xml ...");
 	spdlog::info("Loading user npcs");
