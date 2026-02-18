@@ -20979,6 +20979,7 @@
 	</item>
 	<item id="7804" article="a" name="water vortex">
 		<attribute key="primarytype" value="teleporters"/>
+		<attribute key="type" value="teleport"/>
 	</item>
 	<item fromid="7805" toid="7808" article="a" name="large crystal"/>
 	<item fromid="7809" toid="7812" article="a" name="crystal">
@@ -75720,4 +75721,3 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 </items>
-
