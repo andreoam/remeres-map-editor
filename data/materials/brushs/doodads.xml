@@ -9060,6 +9060,9 @@
 		<alternate>
 			<item id="16202" chance="10"/>
 		</alternate>
+		<alternate>
+			<item id="50296" chance="10"/>
+		</alternate>
 	</brush>
 
 	<brush name="venore beam statue" type="doodad" server_lookid="17300" draggable="true" on_blocking="true" on_duplicate="true" thickness="10/10">
