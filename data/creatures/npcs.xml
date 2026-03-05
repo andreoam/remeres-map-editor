@@ -9,41 +9,33 @@
 	<npc name="Bilbo Bolseiro" looktype="160" lookitem="0" lookaddon="0" lookhead="96" lookbody="101" looklegs="120" lookfeet="120" />
 	<npc name="Vanessa" looktype="148" lookitem="0" lookaddon="3" lookhead="0" lookbody="119" looklegs="120" lookfeet="120" />
 	<npc name="Trader" looktype="148" lookitem="0" lookaddon="3" lookhead="0" lookbody="119" looklegs="120" lookfeet="120" />
-	<npc name="Altar" looktype="130" lookitem="0" lookaddon="3" lookhead="115" lookbody="39" looklegs="96" lookfeet="118" />
 	<npc name="Flickering Soul" looktype="1219" lookhead="6" lookbody="26" looklegs="26" lookfeet="6"/>
 	<npc name="Haldor Hammerfall" looktype="610" lookhead="77" lookbody="38" looklegs="97" lookfeet="78" lookAddons="1" />
-	<npc name="Kulag, The Guard" looktype="131" lookbody="19" looklegs="19" lookfeet="19"/>
-	<npc name="Miles, The Guard" looktype="131" lookbody="19" looklegs="19" lookfeet="19"/>
 	<npc name="Old Bony Sea Devil" looktype="1294" />
-	<npc name="Pythius The Rotten" looktype="231"/>
-	<npc name="Tim, The Guard" looktype="131" lookbody="19" looklegs="19" lookfeet="19"/>
 	<npc name="Varkhal" looktype="130" lookhead="115" lookbody="39" looklegs="96" lookfeet="118"/>
-	<npc name="Walter, The Guard" looktype="131" lookhead="19" lookbody="19" looklegs="38" lookfeet="38"/>
 	<npc name="Eveline" looktype="146" lookhead="85" lookbody="7" looklegs="12" lookfeet="19" lookaddon="3"/>
-	<npc name="Grof, The Guard" looktype="131" lookbody="19" looklegs="19" lookfeet="19"/>
+	<npc name="Alex" looktype="130" lookhead="96" lookbody="71" looklegs="63" lookfeet="97" />
 
-	<npc name="Alfrida" lookType="130" lookitem="0" lookAddons="0" lookHead="95" lookBody="4" lookLegs="17" lookFeet="95" />
-	<npc name="Bloodshade Rotten" lookType="1414" lookitem="0" lookAddons="0" lookHead="0" lookBody="0" lookLegs="0" lookFeet="0" />
-	<npc name="Bloodshade Sacrifice" lookType="1414" lookitem="0" lookAddons="0" lookHead="0" lookBody="0" lookLegs="0" lookFeet="0" />
-	<npc name="Captain Caribbean" lookType="155" lookitem="0" lookHead="94" lookBody="0" lookLegs="114" lookFeet="85" lookAddons="3"/>
-	<npc name="Elfris" lookType="140" lookHead="115" lookBody="95" lookLegs="125" lookFeet="57" lookAddons="1"/>
-	<npc name="Freya" lookType="140" lookHead="114" lookBody="16" lookLegs="18" lookFeet="33" lookAddons="1"/>
-	<npc name="Gardel" lookType="131" lookHead="38" lookBody="113" lookLegs="67" lookFeet="95" lookAddons="0"/>
-	<npc name="Grim" lookType="128" lookHead="58" lookBody="68" lookLegs="109" lookFeet="115" lookAddons="0"/>
-	<npc name="Hallfrid" lookType="137" lookHead="0" lookBody="100" lookLegs="100" lookFeet="115" lookAddons="0"/>
-	<npc name="Horrik" lookType="57"/>
-	<npc name="Kazyr" lookType="129" lookHead="58" lookBody="68" lookLegs="101" lookFeet="95" lookAddons="0"/>
-	<npc name="Kromald" lookType="137" lookHead="40" lookBody="96" lookLegs="95" lookFeet="96" lookAddons="0"/>
-	<npc name="Larak" lookType="472" lookHead="19" lookBody="50" lookLegs="10" lookFeet="3" lookAddons="0"/>
-	<npc name="Sedrak" lookType="145" lookHead="96" lookBody="114" lookLegs="120" lookFeet="101" lookAddons="0"/>
-	<npc name="Targwyn" lookType="130" lookHead="19" lookBody="86" lookLegs="87" lookFeet="95" lookAddons="0"/>
-	<npc name="Thargo (1)" lookType="251" lookHead="79" lookBody="116" lookLegs="116" lookFeet="116" lookAddons="3"/>
-	<npc name="Thargo (2)" lookType="251" lookHead="79" lookBody="116" lookLegs="116" lookFeet="116" lookAddons="3"/>
-	<npc name="Thargo (3)" lookType="251" lookHead="79" lookBody="116" lookLegs="116" lookFeet="116" lookAddons="3"/>
-	<npc name="Thargo (4)" lookType="251" lookHead="79" lookBody="116" lookLegs="116" lookFeet="116" lookAddons="3"/>
-	<npc name="Thorvar" lookType="136" lookHead="96" lookBody="65" lookLegs="0" lookFeet="96" lookAddons="2"/>
-	<npc name="Torgrim" lookType="129" lookHead="96" lookBody="123" lookLegs="86" lookFeet="98" lookAddons="0"/>
-	<npc name="Captain Grenald" lookType="129" lookHead="19" lookBody="69" lookLegs="125" lookFeet="50" lookAddons="0"/>
+	<npc name="Alfrida" looktype="130" lookitem="0" lookAddons="0" lookhead="95" lookbody="4" looklegs="17" lookfeet="95" />
+	<npc name="Captain Caribbean" looktype="155" lookitem="0" lookhead="94" lookbody="0" looklegs="114" lookfeet="85" lookAddons="3"/>
+	<npc name="Elfris" looktype="140" lookhead="115" lookbody="95" looklegs="125" lookfeet="57" lookAddons="1"/>
+	<npc name="Freya" looktype="140" lookhead="114" lookbody="16" looklegs="18" lookfeet="33" lookAddons="1"/>
+	<npc name="Gardel" looktype="131" lookhead="38" lookbody="113" looklegs="67" lookfeet="95" lookAddons="0"/>
+	<npc name="Grim" looktype="128" lookhead="58" lookbody="68" looklegs="109" lookfeet="115" lookAddons="0"/>
+	<npc name="Hallfrid" looktype="137" lookhead="0" lookbody="100" looklegs="100" lookfeet="115" lookAddons="0"/>
+	<npc name="Horrik" looktype="57"/>
+	<npc name="Kazyr" looktype="129" lookhead="58" lookbody="68" looklegs="101" lookfeet="95" lookAddons="0"/>
+	<npc name="Kromald" looktype="137" lookhead="40" lookbody="96" looklegs="95" lookfeet="96" lookAddons="0"/>
+	<npc name="Larak" looktype="472" lookhead="19" lookbody="50" looklegs="10" lookfeet="3" lookAddons="0"/>
+	<npc name="Sedrak" looktype="145" lookhead="96" lookbody="114" looklegs="120" lookfeet="101" lookAddons="0"/>
+	<npc name="Targwyn" looktype="130" lookhead="19" lookbody="86" looklegs="87" lookfeet="95" lookAddons="0"/>
+	<npc name="Thargo (1)" looktype="251" lookhead="79" lookbody="116" looklegs="116" lookfeet="116" lookAddons="3"/>
+	<npc name="Thargo (2)" looktype="251" lookhead="79" lookbody="116" looklegs="116" lookfeet="116" lookAddons="3"/>
+	<npc name="Thargo (3)" looktype="251" lookhead="79" lookbody="116" looklegs="116" lookfeet="116" lookAddons="3"/>
+	<npc name="Thargo (4)" looktype="251" lookhead="79" lookbody="116" looklegs="116" lookfeet="116" lookAddons="3"/>
+	<npc name="Thorvar" looktype="136" lookhead="96" lookbody="65" looklegs="0" lookfeet="96" lookAddons="2"/>
+	<npc name="Torgrim" looktype="129" lookhead="96" lookbody="123" looklegs="86" lookfeet="98" lookAddons="0"/>
+	<npc name="Captain Grenald" looktype="129" lookhead="19" lookbody="69" looklegs="125" lookfeet="50" lookAddons="0"/>
 	
 	<npc name="..." looktype="294" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="A Bearded Woman" looktype="140" lookitem="0" lookaddon="0" lookhead="60" lookbody="22" looklegs="24" lookfeet="32" />
@@ -114,7 +106,7 @@
 	<npc name="Amarie" looktype="159" lookitem="0" lookaddon="0" lookhead="128" lookbody="34" looklegs="28" lookfeet="116" />
 	<npc name="Ambassador Of Rathleton" looktype="472" lookitem="0" lookaddon="0" lookhead="19" lookbody="53" looklegs="61" lookfeet="3" />
 	<npc name="Amber" looktype="136" lookitem="0" lookaddon="0" lookhead="59" lookbody="113" looklegs="132" lookfeet="76" />
-	<npc name="Amra" lookType="1537" lookHead="114" lookBody="6" lookLegs="67" lookFeet="49" lookAddons="1" />
+	<npc name="Amra" looktype="1537" lookhead="114" lookbody="6" looklegs="67" lookfeet="49" lookAddons="1" />
 	<npc name="An Ancient Priest" looktype="65" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="An Apparition" looktype="48" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="An Idol" looktype="0" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0"/>
@@ -143,7 +135,7 @@
 	<npc name="Ashtamor" looktype="130" lookitem="0" lookaddon="0" lookhead="19" lookbody="114" looklegs="76" lookfeet="114" />
 	<npc name="Asima" looktype="138" lookitem="0" lookaddon="0" lookhead="59" lookbody="70" looklegs="93" lookfeet="76" />
 	<npc name="Asnarus" looktype="104" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
-	<npc name="Asphota" lookType="1538" lookHead="19" lookBody="54" lookLegs="0" lookFeet="78" lookAddons="1" lookMount="0" />
+	<npc name="Asphota" looktype="1538" lookhead="19" lookbody="54" looklegs="0" lookfeet="78" lookAddons="1" lookMount="0" />
 	<npc name="Asrak" looktype="29" lookitem="0" lookaddon="0" lookhead="10" lookbody="20" looklegs="30" lookfeet="40" />
 	<npc name="Asralius" looktype="194" lookitem="0" lookaddon="0" lookhead="114" lookbody="85" looklegs="113" lookfeet="114" />
 	<npc name="Atrad" looktype="152" lookitem="0" lookaddon="0" lookhead="77" lookbody="113" looklegs="132" lookfeet="94" />
@@ -393,7 +385,6 @@
 	<npc name="Fillias" looktype="130" lookitem="0" lookaddon="0" lookhead="59" lookbody="57" looklegs="49" lookfeet="95" />
 	<npc name="Finarfin" looktype="63" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Fiona" looktype="137" lookitem="0" lookaddon="0" lookhead="115" lookbody="100" looklegs="95" lookfeet="38" />
-	<npc name="Flickering Soul" looktype="1219" lookitem="0" lookaddon="0" lookhead="6" lookbody="26" looklegs="26" lookfeet="6"/>
 	<npc name="Flint" looktype="134" lookitem="0" lookaddon="0" lookhead="95" lookbody="57" looklegs="76" lookfeet="39" />
 	<npc name="Flora" looktype="148" lookitem="0" lookaddon="0" lookhead="114" lookbody="81" looklegs="20" lookfeet="3" />
 	<npc name="Florentine" looktype="140" lookitem="0" lookaddon="0" lookhead="2" lookbody="91" looklegs="77" lookfeet="2" />
@@ -424,7 +415,7 @@
 	<npc name="Ghorza" looktype="859" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Ghost Of A Priest" looktype="355" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Ghostly Wolf" looktype="730" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
-	<npc name="Giri" lookType="1539" lookHead="5" lookBody="61" lookLegs="10" lookFeet="0" lookAddons="0" lookMount="0" />
+	<npc name="Giri" looktype="1539" lookhead="5" lookbody="61" looklegs="10" lookfeet="0" lookAddons="0" lookMount="0" />
 	<npc name="Gladys" looktype="148" lookitem="0" lookaddon="0" lookhead="57" lookbody="94" looklegs="78" lookfeet="114" />
 	<npc name="Gnomad" looktype="493" lookitem="0" lookaddon="0" lookhead="78" lookbody="94" looklegs="94" lookfeet="114" />
 	<npc name="Gnomadness" looktype="493" lookitem="0" lookaddon="2" lookhead="110" lookbody="65" looklegs="110" lookfeet="110" />
@@ -722,7 +713,7 @@
 	<npc name="Nina" looktype="152" lookitem="0" lookaddon="0" lookhead="114" lookbody="95" looklegs="95" lookfeet="95" />
 	<npc name="Ninev" looktype="1199" lookitem="0" lookaddon="0" lookhead="114" lookbody="86" looklegs="68" lookfeet="9" />
 	<npc name="Ninos" looktype="1200" lookitem="0" lookaddon="0" lookhead="95" lookbody="86" looklegs="0" lookfeet="0" />
-	<npc name="Nipuna" lookType="1539" lookHead="10" lookBody="57" lookLegs="0" lookFeet="46" lookAddons="0" lookMount="0" />
+	<npc name="Nipuna" looktype="1539" lookhead="10" lookbody="57" looklegs="0" lookfeet="46" lookAddons="0" lookMount="0" />
 	<npc name="Nokmir" looktype="160" lookitem="0" lookaddon="0" lookhead="57" lookbody="87" looklegs="59" lookfeet="114" />
 	<npc name="Nomadnpc" looktype="143" lookitem="0" lookaddon="0" lookhead="115" lookbody="116" looklegs="59" lookfeet="116" />
 	<npc name="Nomad" looktype="143" lookitem="0" lookaddon="0" lookhead="115" lookbody="116" looklegs="59" lookfeet="116"/>
@@ -911,7 +902,7 @@
 	<npc name="Strange Pipe (3)" looktype="668" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Stricken Soul" looktype="48" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Stutch" looktype="131" lookitem="0" lookaddon="0" lookhead="79" lookbody="79" looklegs="79" lookfeet="79" />
-	<npc name="Sundara" lookType="1543" lookHead="95" lookBody="52" lookLegs="19" lookFeet="0" lookAddons="1" />
+	<npc name="Sundara" looktype="1543" lookhead="95" lookbody="52" looklegs="19" lookfeet="0" lookAddons="1" />
 	<npc name="Suzy" looktype="136" lookitem="0" lookaddon="0" lookhead="78" lookbody="10" looklegs="115" lookfeet="95" />
 	<npc name="Sven" looktype="143" lookitem="0" lookaddon="0" lookhead="76" lookbody="57" looklegs="115" lookfeet="40" />
 	<npc name="Svenson" looktype="129" lookitem="0" lookaddon="0" lookhead="77" lookbody="113" looklegs="105" lookfeet="86" />
