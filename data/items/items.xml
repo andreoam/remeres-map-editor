@@ -20979,6 +20979,7 @@
 	</item>
 	<item id="7804" article="a" name="water vortex">
 		<attribute key="primarytype" value="teleporters"/>
+		<attribute key="type" value="teleport"/>
 	</item>
 	<item fromid="7805" toid="7808" article="a" name="large crystal"/>
 	<item fromid="7809" toid="7812" article="a" name="crystal">
@@ -34583,6 +34584,9 @@
 	</item>
 	<item id="16202" article="a" name="skill trainer">
 		<attribute key="description" value="Use this statue to train your magic level and shielding skill offline."/>
+	</item>
+	<item id="50296" article="a" name="skill trainer">
+		<attribute key="description" value="Use this statue to train your fist fighting and shielding skill offline."/>
 	</item>
 	<item id="16203" name="timber floor">
 		<attribute key="primarytype" value="artificial tiles"/>
@@ -75720,4 +75724,3 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 </items>
-
