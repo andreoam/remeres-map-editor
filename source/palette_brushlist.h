@@ -50,26 +50,11 @@ public:
 	// Returns the currently selected brush (First brush if panel is not loaded)
 	virtual Brush* GetSelectedBrush() const = 0;
 	// Select the brush in the parameter, this only changes the look of the panel
-	virtual bool SelectPaginatedBrush(const Brush* brush, BrushPalettePanel* brushPalettePanel) = 0;
 	virtual bool SelectBrush(const Brush* brush) = 0;
-
-	virtual bool NextPage() = 0;
-	virtual bool SetPage(int page) = 0;
-	virtual bool PreviousPage() = 0;
-
-	virtual int GetCurrentPage() {
-		return currentPage;
-	}
-
-	virtual int GetTotalPages() {
-		return totalPages;
-	}
 
 protected:
 	const TilesetCategory* const tileset;
 	bool loaded = false;
-	int currentPage = 1;
-	int totalPages = 1;
 };
 
 class BrushListBox : public wxVListBox, public BrushBoxInterface {
@@ -86,20 +71,7 @@ public:
 	// Returns the currently selected brush (First brush if panel is not loaded)
 	Brush* GetSelectedBrush() const;
 	// Select the brush in the parameter, this only changes the look of the panel
-	bool SelectPaginatedBrush(const Brush* whatBrush, BrushPalettePanel* brushPalettePanel) noexcept override;
 	bool SelectBrush(const Brush* whatBrush) override;
-
-	bool NextPage() override {
-		return false;
-	};
-
-	bool SetPage(int page) override {
-		return false;
-	};
-
-	bool PreviousPage() override {
-		return false;
-	};
 
 	// Event handlers
 	void OnDrawItem(wxDC &dc, const wxRect &rect, size_t index) const override;
@@ -122,19 +94,12 @@ public:
 	// Scrolls the window to the position of the named brush button
 	void EnsureVisible(const BrushButton* brushButto);
 
-	bool LoadContentByPage(int page = 1);
-
 	// Select the first brush
 	void SelectFirstBrush();
 	// Returns the currently selected brush (First brush if panel is not loaded)
 	Brush* GetSelectedBrush() const;
 	// Select the brush in the parameter, this only changes the look of the panel
-	bool SelectPaginatedBrush(const Brush* whatBrush, BrushPalettePanel* brushPalettePanel) override;
 	bool SelectBrush(const Brush* whatBrush) override;
-
-	bool NextPage() override;
-	bool SetPage(int page) override;
-	bool PreviousPage() override;
 
 	// Event handling...
 	void OnClickBrushButton(wxCommandEvent &event);
@@ -145,15 +110,12 @@ private:
 	// Used internally to deselect a button before selecting a new one.
 	void Deselect();
 
-	int width = 0;
-	int height = 0;
-
 	BrushButton* selectedButton = nullptr;
 	std::vector<BrushButton*> brushButtons;
 	RenderSize iconSize;
 
 	wxBoxSizer* stacksizer = nullptr;
-	std::vector<const wxBoxSizer*> rowsizers;
+	std::vector<wxBoxSizer*> rowsizers;
 
 	DECLARE_EVENT_TABLE();
 };
@@ -174,8 +136,6 @@ public:
 	void InvalidateContents();
 	// Loads the content (This must be called before the panel is displayed, else it will appear empty
 	void LoadContents();
-
-	BrushListType GetListType() const;
 
 	// Sets the display type (list or icons)
 	void SetListType(BrushListType newListType);
@@ -198,8 +158,6 @@ public:
 	// wxWidgets event handlers
 	void OnClickListBoxRow(wxCommandEvent &event);
 
-	[[nodiscard]] BrushBoxInterface* GetBrushBox() const;
-
 protected:
 	const TilesetCategory* tileset;
 	wxSizer* sizer = newd wxBoxSizer(wxVERTICAL);
@@ -213,11 +171,9 @@ protected:
 class BrushPalettePanel : public PalettePanel {
 public:
 	BrushPalettePanel(wxWindow* parent, const TilesetContainer &tilesets, TilesetCategoryType category, wxWindowID id = wxID_ANY);
-	~BrushPalettePanel();
+	~BrushPalettePanel() final = default;
 
-	void RemovePagination();
-	void AddPagination();
-	void AddTilesetEditor();
+	void AddTilesetEditor(wxSizer* sizer);
 
 	// Interface
 	// Flushes this panel and consequent views will feature reloaded data
@@ -228,11 +184,10 @@ public:
 	void LoadAllContents();
 
 	PaletteType GetType() const;
-	BrushListType GetListType() const;
 
 	// Sets the display type (list or icons)
-	void SetListType(BrushListType newListType);
-	void SetListType(const wxString &newListType);
+	void SetListType(BrushListType newListType) const;
+	void SetListType(const wxString &newListType) const;
 
 	// Select the first brush
 	void SelectFirstBrush();
@@ -250,28 +205,9 @@ public:
 	void OnClickAddTileset(wxCommandEvent &WXUNUSED(event));
 	void OnClickAddItemToTileset(wxCommandEvent &WXUNUSED(event));
 
-	void OnSetFocus(wxFocusEvent &event);
-	void OnKillFocus(wxFocusEvent &event);
-
-	void OnPageUpdate(BrushBoxInterface* brushbox, int page);
-	void OnSetPage(wxCommandEvent &WXUNUSED(event));
-	void OnNextPage(wxCommandEvent &WXUNUSED(event));
-	void OnPreviousPage(wxCommandEvent &WXUNUSED(event));
-
-	void EnableNextPage(bool enable = true);
-	void EnablePreviousPage(bool enable = true);
-	void SetPageInfo(const wxString &text);
-	void SetCurrentPage(const wxString &text);
-
 protected:
-	wxSizer* sizer = newd wxBoxSizer(wxVERTICAL);
-	wxSizer* pageInfoSizer = newd wxFlexGridSizer(7, 1, 1);
 	PaletteType paletteType;
 	wxChoicebook* choicebook = nullptr;
-	wxButton* nextPageButton = nullptr;
-	wxButton* previousPageButton = nullptr;
-	wxTextCtrl* currentPageCtrl = nullptr;
-	wxStaticText* pageInfo = nullptr;
 	BrushSizePanel* sizePanel = nullptr;
 	std::map<wxWindow*, Brush*> rememberedBrushes;
 
