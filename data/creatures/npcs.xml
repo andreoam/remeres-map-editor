@@ -15,9 +15,10 @@
 	<npc name="Varkhal" looktype="130" lookhead="115" lookbody="39" looklegs="96" lookfeet="118"/>
 	<npc name="Eveline" looktype="146" lookhead="85" lookbody="7" looklegs="12" lookfeet="19" lookaddon="3"/>
 	<npc name="Alex" looktype="130" lookhead="96" lookbody="71" looklegs="63" lookfeet="97" />
-
+	<npc name="Accessories Merchant" looktype="957" lookitem="0" lookaddon="3" lookhead="78" lookbody="5" looklegs="5" lookfeet="115" />
 	<npc name="Alfrida" looktype="130" lookitem="0" lookAddons="0" lookhead="95" lookbody="4" looklegs="17" lookfeet="95" />
 	<npc name="Captain Caribbean" looktype="155" lookitem="0" lookhead="94" lookbody="0" looklegs="114" lookfeet="85" lookAddons="3"/>
+	<npc name="Captain Karenald" looktype="155" lookitem="0" lookhead="94" lookbody="0" looklegs="114" lookfeet="85" lookAddons="3"/>
 	<npc name="Elfris" looktype="140" lookhead="115" lookbody="95" looklegs="125" lookfeet="57" lookAddons="1"/>
 	<npc name="Freya" looktype="140" lookhead="114" lookbody="16" looklegs="18" lookfeet="33" lookAddons="1"/>
 	<npc name="Gardel" looktype="131" lookhead="38" lookbody="113" looklegs="67" lookfeet="95" lookAddons="0"/>
@@ -381,6 +382,7 @@
 	<npc name="Ferks" looktype="128" lookitem="0" lookaddon="0" lookhead="59" lookbody="71" looklegs="119" lookfeet="116" />
 	<npc name="Ferryman Kamil" looktype="132" lookitem="0" lookaddon="0" lookhead="0" lookbody="71" looklegs="76" lookfeet="115" />
 	<npc name="Ferryman Kamil Meluna" looktype="132" lookitem="0" lookaddon="0" lookhead="0" lookbody="71" looklegs="76" lookfeet="115" />
+	<npc name="Ferryman Kamil (Meluna)" looktype="132" lookitem="0" lookaddon="0" lookhead="0" lookbody="71" looklegs="76" lookfeet="115" />
 	<npc name="Ferus" looktype="66" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Fillias" looktype="130" lookitem="0" lookaddon="0" lookhead="59" lookbody="57" looklegs="49" lookfeet="95" />
 	<npc name="Finarfin" looktype="63" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
