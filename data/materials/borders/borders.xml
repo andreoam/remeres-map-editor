@@ -2779,5 +2779,20 @@
 		<borderitem edge="dsw" item="25437"/>
 		<borderitem edge="dse" item="25436"/>
 	</border>	
+
+	<border id="249">
+		<borderitem edge="n"   item="26996"/>
+		<borderitem edge="e"   item="26986"/>
+		<borderitem edge="s"   item="26980"/>
+		<borderitem edge="w"   item="26997"/>
+		<borderitem edge="cnw" item="27001"/>
+		<borderitem edge="cne" item="27000"/>
+		<borderitem edge="csw" item="26999"/>
+		<borderitem edge="cse" item="26992"/>
+		<borderitem edge="dnw" item="27005"/>
+		<borderitem edge="dne" item="27004"/>
+		<borderitem edge="dsw" item="27003"/>
+		<borderitem edge="dse" item="27002"/>
+	</border>
 	
 </materials>
