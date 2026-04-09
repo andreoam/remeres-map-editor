@@ -3599,7 +3599,8 @@
 	<brush name="short stone mountain" type="ground" lookid="26995" z-order="9900">
 		<item id="26995" chance="1"/>
 		
-		<optional id="232"/>
+			<border align="outer" id="249"/>
+			<border align="outer" to="none" id="249"/>
 	</brush>
 
 	<brush name="grass stone mountain" type="ground" lookid="32570" z-order="9900">
