@@ -49,10 +49,6 @@
 #include "live_tab.h"
 #include "live_server.h"
 
-#ifdef __WXOSX__
-	#include <AGL/agl.h>
-#endif
-
 #include <appearances.pb.h>
 
 namespace InternalGUI {
@@ -123,17 +119,7 @@ GUI::~GUI() {
 
 wxGLContext* GUI::GetGLContext(wxGLCanvas* win) {
 	if (OGLContext == nullptr) {
-#ifdef __WXOSX__
-		/*
-		wxGLContext(AGLPixelFormat fmt, wxGLCanvas *win,
-					const wxPalette& WXUNUSED(palette),
-					const wxGLContext *other
-					);
-		*/
-		OGLContext = new wxGLContext(win, nullptr);
-#else
 		OGLContext = newd wxGLContext(win);
-#endif
 	}
 
 	return OGLContext;
@@ -1463,7 +1449,7 @@ void GUI::StartAsyncSqliteBootstrapImport() {
 	SetStatusText("Building SQLite materials database in background...");
 	UpdateMenubar();
 
-	sqlite_bootstrap_thread_ = std::jthread(&GUI::RunAsyncSqliteBootstrapImport, this);
+	sqlite_bootstrap_thread_ = std::thread(&GUI::RunAsyncSqliteBootstrapImport, this);
 }
 
 void GUI::SetTitle(wxString title) {
