@@ -109,21 +109,21 @@
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <VcpkgInstalledDir>vcpkg_installed</VcpkgInstalledDir>
+    <VcpkgInstalledDir>$(MSBuildProjectDirectory)\vcpkg_installed</VcpkgInstalledDir>
     <VcpkgTriplet>x64-windows</VcpkgTriplet>
     <VcpkgConfiguration>Debug</VcpkgConfiguration>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Vcpkg">
-    <VcpkgInstalledDir>vcpkg_installed</VcpkgInstalledDir>
+    <VcpkgInstalledDir>$(MSBuildProjectDirectory)\vcpkg_installed</VcpkgInstalledDir>
     <VcpkgTriplet>x64-windows</VcpkgTriplet>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <VcpkgInstalledDir>vcpkg_installed</VcpkgInstalledDir>
+    <VcpkgInstalledDir>$(MSBuildProjectDirectory)\vcpkg_installed</VcpkgInstalledDir>
     <VcpkgTriplet>x64-windows</VcpkgTriplet>
     <VcpkgConfiguration>Release</VcpkgConfiguration>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Vcpkg">
-    <VcpkgInstalledDir>vcpkg_installed</VcpkgInstalledDir>
+    <VcpkgInstalledDir>$(MSBuildProjectDirectory)\vcpkg_installed</VcpkgInstalledDir>
     <VcpkgTriplet>x64-windows</VcpkgTriplet>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -364,6 +364,8 @@
     <ClInclude Include="..\..\source\map_allocator.h" />
     <ClInclude Include="..\..\source\map_region.h" />
     <ClCompile Include="..\..\source\map_region.cpp" />
+    <ClInclude Include="..\..\source\object_pool.h" />
+    <ClCompile Include="..\..\source\object_pool.cpp" />
     <ClInclude Include="..\..\source\mt_rand.h" />
     <ClCompile Include="..\..\source\mt_rand.cpp" />
     <ClInclude Include="..\..\source\net_connection.h" />
@@ -463,9 +465,13 @@
     <ClCompile Include="..\..\source\updater.cpp" />
     <ClInclude Include="..\..\source\brush.h" />
     <ClCompile Include="..\..\source\brush.cpp" />
+    <ClInclude Include="..\..\source\brush_database.h" />
+    <ClCompile Include="..\..\source\brush_database.cpp" />
     <ClInclude Include="..\..\source\brush_enums.h" />
     <ClInclude Include="..\..\source\materials.h" />
     <ClCompile Include="..\..\source\materials.cpp" />
+    <ClInclude Include="..\..\source\sqlite_materials_inspector.h" />
+    <ClCompile Include="..\..\source\sqlite_materials_inspector.cpp" />
     <ClInclude Include="..\..\source\tileset.h" />
     <ClCompile Include="..\..\source\tileset.cpp" />
     <ClInclude Include="..\..\source\basemap.h" />
@@ -578,6 +584,6 @@
   </Target>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VcpkgRoot)\\scripts\\buildsystems\\msbuild\\vcpkg.targets" Condition="Exists('$(VcpkgRoot)\\scripts\\buildsystems\\msbuild\\vcpkg.targets')" />
+    <Import Project="$(VcpkgRoot)\scripts\buildsystems\msbuild\vcpkg.targets" Condition="'$(_ZVcpkgRoot)'=='' and '$(VcpkgRoot)'!='' and Exists('$(VcpkgRoot)\scripts\buildsystems\msbuild\vcpkg.targets')" />
   </ImportGroup>
 </Project>
