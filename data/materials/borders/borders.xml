@@ -2795,21 +2795,6 @@
 		<borderitem edge="dse" item="27002"/>
 	</border>
 	
-	<border id="249"> -- old grass --
-		<borderitem edge="n"  item="24614"/>
-		<borderitem edge="w"  item="24611"/>
-		<borderitem edge="e"  item="24617"/>
-		<borderitem edge="s"  item="24606"/>
-		<borderitem edge="cnw" item="24612"/>
-		<borderitem edge="cne" item="24615"/>
-		<borderitem edge="cse" item="24608"/>
-		<borderitem edge="csw" item="24607"/>
-		<borderitem edge="dnw" item="24613"/>
-		<borderitem edge="dne" item="24616"/>
-		<borderitem edge="dse" item="24609"/>
-		<borderitem edge="dsw" item="24610"/>
-	</border>
-
 	<border id="250"> -- old gravel --
 		<borderitem edge="n"  item="24678"/>
 		<borderitem edge="w"  item="24675"/>
@@ -3258,6 +3243,21 @@
 		<borderitem edge="dne" item="49358"/>
 		<borderitem edge="dse" item="49356"/>
 		<borderitem edge="dsw" item="49357"/>
+	</border>
+
+	<border id="280"> -- old grass --
+		<borderitem edge="n"  item="24614"/>
+		<borderitem edge="w"  item="24611"/>
+		<borderitem edge="e"  item="24617"/>
+		<borderitem edge="s"  item="24606"/>
+		<borderitem edge="cnw" item="24612"/>
+		<borderitem edge="cne" item="24615"/>
+		<borderitem edge="cse" item="24608"/>
+		<borderitem edge="csw" item="24607"/>
+		<borderitem edge="dnw" item="24613"/>
+		<borderitem edge="dne" item="24616"/>
+		<borderitem edge="dse" item="24609"/>
+		<borderitem edge="dsw" item="24610"/>
 	</border>
 
 </materials>

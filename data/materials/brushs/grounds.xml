@@ -3733,7 +3733,7 @@
 	<brush name="old grass" type="ground" lookid="24605" z-order="3250">
 		<item id="24605" chance="25"/>
 
-		<border align="outer" id="249"/>
+		<border align="outer" id="280"/>
 	</brush>
 
 	<brush name="old gravel" type="ground" lookid="24669" z-order="4510">
